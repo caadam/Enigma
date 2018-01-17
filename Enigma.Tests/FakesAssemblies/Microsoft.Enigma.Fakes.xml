@@ -1,0 +1,1835 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Enigma.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException">
+            <summary>Shim type of Microsoft.Enigma.Exceptions.IllegalCharacterException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException.#ctor(Microsoft.Enigma.Exceptions.IllegalCharacterException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimIllegalCharacterException.ConstructorString">
+            <summary>Sets the shim of IllegalCharacterException.IllegalCharacterException(String illegalCharacter)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException">
+            <summary>Shim type of Microsoft.Enigma.Exceptions.InvalidEnigmaMessageFormationException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException.#ctor(Microsoft.Enigma.Exceptions.InvalidEnigmaMessageFormationException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidEnigmaMessageFormationException.ConstructorInt32">
+            <summary>Sets the shim of InvalidEnigmaMessageFormationException.InvalidEnigmaMessageFormationException(Int32 groupSize)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException">
+            <summary>Shim type of Microsoft.Enigma.Exceptions.InvalidMachineSettingsException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException.#ctor(Microsoft.Enigma.Exceptions.InvalidMachineSettingsException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidMachineSettingsException.ConstructorString">
+            <summary>Sets the shim of InvalidMachineSettingsException.InvalidMachineSettingsException(String machineType)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException">
+            <summary>Shim type of Microsoft.Enigma.Exceptions.InvalidRotorPositionException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException.#ctor(Microsoft.Enigma.Exceptions.InvalidRotorPositionException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimInvalidRotorPositionException.ConstructorInt32">
+            <summary>Sets the shim of InvalidRotorPositionException.InvalidRotorPositionException(Int32 rotorPosition)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException">
+            <summary>Shim type of Microsoft.Enigma.Exceptions.NotInitialisedException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException.#ctor(Microsoft.Enigma.Exceptions.NotInitialisedException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.ShimNotInitialisedException.Constructor">
+            <summary>Sets the shim of NotInitialisedException.NotInitialisedException()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException">
+            <summary>Stub type of Microsoft.Enigma.Exceptions.IllegalCharacterException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubIllegalCharacterException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubIllegalCharacterException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.InitializeStub">
+            <summary>Initializes a new instance of type StubIllegalCharacterException</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubIllegalCharacterException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException">
+            <summary>Stub type of Microsoft.Enigma.Exceptions.InvalidEnigmaMessageFormationException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubInvalidEnigmaMessageFormationException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubInvalidEnigmaMessageFormationException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.InitializeStub">
+            <summary>Initializes a new instance of type StubInvalidEnigmaMessageFormationException</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidEnigmaMessageFormationException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException">
+            <summary>Stub type of Microsoft.Enigma.Exceptions.InvalidMachineSettingsException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubInvalidMachineSettingsException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubInvalidMachineSettingsException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.InitializeStub">
+            <summary>Initializes a new instance of type StubInvalidMachineSettingsException</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidMachineSettingsException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException">
+            <summary>Stub type of Microsoft.Enigma.Exceptions.InvalidRotorPositionException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubInvalidRotorPositionException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubInvalidRotorPositionException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.InitializeStub">
+            <summary>Initializes a new instance of type StubInvalidRotorPositionException</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubInvalidRotorPositionException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException">
+            <summary>Stub type of Microsoft.Enigma.Exceptions.NotInitialisedException</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubNotInitialisedException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubNotInitialisedException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.InitializeStub">
+            <summary>Initializes a new instance of type StubNotInitialisedException</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Exceptions.Fakes.StubNotInitialisedException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine">
+            <summary>Shim type of Microsoft.Enigma.AbstractEnigmaMachine</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.#ctor(Microsoft.Enigma.AbstractEnigmaMachine)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.AllInstances.PlugBoardGet">
+            <summary>Sets the shim of AbstractEnigmaMachine.get_PlugBoard()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.AllInstances.PlugBoardSetIPlugboard">
+            <summary>Sets the shim of AbstractEnigmaMachine.set_PlugBoard(IPlugboard value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.AllInstances.ScramblerUnitGet">
+            <summary>Sets the shim of AbstractEnigmaMachine.get_ScramblerUnit()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.AllInstances.ScramblerUnitSetIScramblerUnit">
+            <summary>Sets the shim of AbstractEnigmaMachine.set_ScramblerUnit(IScramblerUnit value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.Bind(Microsoft.Enigma.IEnigmaMachine)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.Constructor">
+            <summary>Sets the shim of AbstractEnigmaMachine.AbstractEnigmaMachine()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.PlugBoardGet">
+            <summary>Sets the shim of AbstractEnigmaMachine.get_PlugBoard()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.PlugBoardSetIPlugboard">
+            <summary>Sets the shim of AbstractEnigmaMachine.set_PlugBoard(IPlugboard value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.ScramblerUnitGet">
+            <summary>Sets the shim of AbstractEnigmaMachine.get_ScramblerUnit()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractEnigmaMachine.ScramblerUnitSetIScramblerUnit">
+            <summary>Sets the shim of AbstractEnigmaMachine.set_ScramblerUnit(IScramblerUnit value)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimAbstractPlugboard">
+            <summary>Shim type of Microsoft.Enigma.AbstractPlugboard</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.#ctor(Microsoft.Enigma.AbstractPlugboard)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.AllInstances.LayoutGet">
+            <summary>Sets the shim of AbstractPlugboard.get_Layout()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.AllInstances.LayoutSetDictionaryOfStringString">
+            <summary>Sets the shim of AbstractPlugboard.set_Layout(Dictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.Bind(Microsoft.Enigma.IPlugboard)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.Constructor">
+            <summary>Sets the shim of AbstractPlugboard.AbstractPlugboard()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.LayoutGet">
+            <summary>Sets the shim of AbstractPlugboard.get_Layout()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractPlugboard.LayoutSetDictionaryOfStringString">
+            <summary>Sets the shim of AbstractPlugboard.set_Layout(Dictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit">
+            <summary>Shim type of Microsoft.Enigma.AbstractScrabmlerUnit</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.#ctor(Microsoft.Enigma.AbstractScrabmlerUnit)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances.EntryWheelGet">
+            <summary>Sets the shim of AbstractScrabmlerUnit.get_EntryWheel()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances.EntryWheelSetIRotor">
+            <summary>Sets the shim of AbstractScrabmlerUnit.set_EntryWheel(IRotor value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances.ReflectorGet">
+            <summary>Sets the shim of AbstractScrabmlerUnit.get_Reflector()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances.ReflectorSetIReflector">
+            <summary>Sets the shim of AbstractScrabmlerUnit.set_Reflector(IReflector value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances.RotorPositionsGet">
+            <summary>Sets the shim of AbstractScrabmlerUnit.get_RotorPositions()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances.RotorPositionsSetInt32Array">
+            <summary>Sets the shim of AbstractScrabmlerUnit.set_RotorPositions(Int32[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances.RotorsGet">
+            <summary>Sets the shim of AbstractScrabmlerUnit.get_Rotors()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.AllInstances.RotorsSetIRotorArray">
+            <summary>Sets the shim of AbstractScrabmlerUnit.set_Rotors(IRotor[] value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.Bind(Microsoft.Enigma.IScramblerUnit)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.Constructor">
+            <summary>Sets the shim of AbstractScrabmlerUnit.AbstractScrabmlerUnit()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.EntryWheelGet">
+            <summary>Sets the shim of AbstractScrabmlerUnit.get_EntryWheel()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.EntryWheelSetIRotor">
+            <summary>Sets the shim of AbstractScrabmlerUnit.set_EntryWheel(IRotor value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.ReflectorGet">
+            <summary>Sets the shim of AbstractScrabmlerUnit.get_Reflector()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.ReflectorSetIReflector">
+            <summary>Sets the shim of AbstractScrabmlerUnit.set_Reflector(IReflector value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.RotorPositionsGet">
+            <summary>Sets the shim of AbstractScrabmlerUnit.get_RotorPositions()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.RotorPositionsSetInt32Array">
+            <summary>Sets the shim of AbstractScrabmlerUnit.set_RotorPositions(Int32[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.RotorsGet">
+            <summary>Sets the shim of AbstractScrabmlerUnit.get_Rotors()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimAbstractScrabmlerUnit.RotorsSetIRotorArray">
+            <summary>Sets the shim of AbstractScrabmlerUnit.set_Rotors(IRotor[] value)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimConstants">
+            <summary>Shim type of Microsoft.Enigma.Constants</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimConstants.ShimAlpha">
+            <summary>Shim type of Microsoft.Enigma.Constants+Alpha</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimAlpha.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimAlpha.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimAlpha.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimAlpha.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors">
+            <summary>Shim type of Microsoft.Enigma.Constants+Reflectors</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.AGet">
+            <summary>Sets the shim of Reflectors.get_A()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.BGet">
+            <summary>Sets the shim of Reflectors.get_B()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.BThinGet">
+            <summary>Sets the shim of Reflectors.get_BThin()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.CGet">
+            <summary>Sets the shim of Reflectors.get_C()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimReflectors.CThinGet">
+            <summary>Sets the shim of Reflectors.get_CThin()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors">
+            <summary>Shim type of Microsoft.Enigma.Constants+Rotors</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.BetaGet">
+            <summary>Sets the shim of Rotors.get_Beta()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.EtwGet">
+            <summary>Sets the shim of Rotors.get_Etw()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.GammaGet">
+            <summary>Sets the shim of Rotors.get_Gamma()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.IGet">
+            <summary>Sets the shim of Rotors.get_I()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.IIGet">
+            <summary>Sets the shim of Rotors.get_II()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.IIIGet">
+            <summary>Sets the shim of Rotors.get_III()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.IVGet">
+            <summary>Sets the shim of Rotors.get_IV()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.VGet">
+            <summary>Sets the shim of Rotors.get_V()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.VIGet">
+            <summary>Sets the shim of Rotors.get_VI()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.VIIGet">
+            <summary>Sets the shim of Rotors.get_VII()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.VIIIGet">
+            <summary>Sets the shim of Rotors.get_VIII()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimConstants.ShimRotors.rotorStaticGet">
+            <summary>Sets the shim of Rotors.get_rotorStatic()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimEnigmaFactory">
+            <summary>Shim type of Microsoft.Enigma.EnigmaFactory</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaFactory.#ctor(Microsoft.Enigma.EnigmaFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimEnigmaFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaFactory.Constructor">
+            <summary>Sets the shim of EnigmaFactory.EnigmaFactory()</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase">
+            <summary>Shim type of Microsoft.Enigma.EnigmaMachineBase</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.#ctor(Microsoft.Enigma.EnigmaMachineBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.AllInstances.EncryptDecryptString">
+            <summary>Sets the shim of EnigmaMachineBase.EncryptDecrypt(String message)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.AllInstances.TraverseString">
+            <summary>Sets the shim of EnigmaMachineBase.Traverse(String character)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.Bind(Microsoft.Enigma.IEnigmaMachine)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.ConstructorEnigmaSettings">
+            <summary>Sets the shim of EnigmaMachineBase.EnigmaMachineBase(EnigmaSettings machineSettings)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.ConstructorIPlugboardIScramblerUnit">
+            <summary>Sets the shim of EnigmaMachineBase.EnigmaMachineBase(IPlugboard plugBoard, IScramblerUnit scramblerUnit)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.EncryptDecryptString">
+            <summary>Sets the shim of EnigmaMachineBase.EncryptDecrypt(String message)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaMachineBase.TraverseString">
+            <summary>Sets the shim of EnigmaMachineBase.Traverse(String character)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimEnigmaSettings">
+            <summary>Shim type of Microsoft.Enigma.EnigmaSettings</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaSettings.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaSettings.#ctor(Microsoft.Enigma.EnigmaSettings)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.EntryWheelGet">
+            <summary>Sets the shim of EnigmaSettings.get_EntryWheel()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.EntryWheelSetIRotor">
+            <summary>Sets the shim of EnigmaSettings.set_EntryWheel(IRotor value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.PlugBoardGet">
+            <summary>Sets the shim of EnigmaSettings.get_PlugBoard()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.PlugBoardSetIPlugboard">
+            <summary>Sets the shim of EnigmaSettings.set_PlugBoard(IPlugboard value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.ReflectorGet">
+            <summary>Sets the shim of EnigmaSettings.get_Reflector()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.ReflectorSetIReflector">
+            <summary>Sets the shim of EnigmaSettings.set_Reflector(IReflector value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.RotorPositionsGet">
+            <summary>Sets the shim of EnigmaSettings.get_RotorPositions()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.RotorPositionsSetListOfInt32">
+            <summary>Sets the shim of EnigmaSettings.set_RotorPositions(List`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.RotorsGet">
+            <summary>Sets the shim of EnigmaSettings.get_Rotors()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.RotorsSetListOfIRotor">
+            <summary>Sets the shim of EnigmaSettings.set_Rotors(List`1&lt;IRotor&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.StaticRotorGet">
+            <summary>Sets the shim of EnigmaSettings.get_StaticRotor()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.AllInstances.StaticRotorSetIRotor">
+            <summary>Sets the shim of EnigmaSettings.set_StaticRotor(IRotor value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaSettings.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaSettings.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.Constructor">
+            <summary>Sets the shim of EnigmaSettings.EnigmaSettings()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.ConstructorIRotorListOfIRotorIPlugboardListOfInt32">
+            <summary>Sets the shim of EnigmaSettings.EnigmaSettings(IRotor etw, List`1&lt;IRotor&gt; rotors, IPlugboard plugboard, List`1&lt;Int32&gt; rotorPositions)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.EntryWheelGet">
+            <summary>Sets the shim of EnigmaSettings.get_EntryWheel()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.EntryWheelSetIRotor">
+            <summary>Sets the shim of EnigmaSettings.set_EntryWheel(IRotor value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.PlugBoardGet">
+            <summary>Sets the shim of EnigmaSettings.get_PlugBoard()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.PlugBoardSetIPlugboard">
+            <summary>Sets the shim of EnigmaSettings.set_PlugBoard(IPlugboard value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.ReflectorGet">
+            <summary>Sets the shim of EnigmaSettings.get_Reflector()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.ReflectorSetIReflector">
+            <summary>Sets the shim of EnigmaSettings.set_Reflector(IReflector value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.RotorPositionsGet">
+            <summary>Sets the shim of EnigmaSettings.get_RotorPositions()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.RotorPositionsSetListOfInt32">
+            <summary>Sets the shim of EnigmaSettings.set_RotorPositions(List`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.RotorsGet">
+            <summary>Sets the shim of EnigmaSettings.get_Rotors()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.RotorsSetListOfIRotor">
+            <summary>Sets the shim of EnigmaSettings.set_Rotors(List`1&lt;IRotor&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.StaticRotorGet">
+            <summary>Sets the shim of EnigmaSettings.get_StaticRotor()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaSettings.StaticRotorSetIRotor">
+            <summary>Sets the shim of EnigmaSettings.set_StaticRotor(IRotor value)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry">
+            <summary>Shim type of Microsoft.Enigma.EnigmaStateEntry</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.#ctor(Microsoft.Enigma.EnigmaStateEntry)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.AllInstances.orderGet">
+            <summary>Sets the shim of EnigmaStateEntry.get_order()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.AllInstances.orderSetInt32">
+            <summary>Sets the shim of EnigmaStateEntry.set_order(Int32 value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.Constructor">
+            <summary>Sets the shim of EnigmaStateEntry.EnigmaStateEntry()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.orderGet">
+            <summary>Sets the shim of EnigmaStateEntry.get_order()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimEnigmaStateEntry.orderSetInt32">
+            <summary>Sets the shim of EnigmaStateEntry.set_order(Int32 value)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimExtensions">
+            <summary>Shim type of Microsoft.Enigma.Extensions</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.ContainsStringStringStringComparison">
+            <summary>Sets the shim of Extensions.Contains(String source, String toCheck, StringComparison comp)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.RotorCircularAddInt32Int32">
+            <summary>Sets the shim of Extensions.RotorCircularAdd(Int32 rotorPosition, Int32 amountToAdd)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.RotorCircularSubtractInt32Int32">
+            <summary>Sets the shim of Extensions.RotorCircularSubtract(Int32 rotorPosition, Int32 amountToSubtract)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.StepRotorInt32">
+            <summary>Sets the shim of Extensions.StepRotor(Int32 rotorPosition)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.ToAlphaInt32">
+            <summary>Sets the shim of Extensions.ToAlpha(Int32 rotorPosition)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.ToEnigmaMessageFormatStringInt32">
+            <summary>Sets the shim of Extensions.ToEnigmaMessageFormat(String message, Int32 groupSize)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.ToIntString">
+            <summary>Sets the shim of Extensions.ToInt(String rotorCharacter)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.WrapInt32">
+            <summary>Sets the shim of Extensions.Wrap(Int32 rotorPosition)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimExtensions.WrapInt32Int32">
+            <summary>Sets the shim of Extensions.Wrap(Int32 rotorPosition, Int32 wrapNumber)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimPlugboardBase">
+            <summary>Shim type of Microsoft.Enigma.PlugboardBase</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimPlugboardBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimPlugboardBase.#ctor(Microsoft.Enigma.PlugboardBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimPlugboardBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimPlugboardBase.AllInstances.MapCharacterString">
+            <summary>Sets the shim of PlugboardBase.MapCharacter(String characterToMap)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimPlugboardBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimPlugboardBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimPlugboardBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimPlugboardBase.Bind(Microsoft.Enigma.IPlugboard)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimPlugboardBase.Constructor">
+            <summary>Sets the shim of PlugboardBase.PlugboardBase()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimPlugboardBase.ConstructorDictionaryOfStringString">
+            <summary>Sets the shim of PlugboardBase.PlugboardBase(Dictionary`2&lt;String,String&gt; layout)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimPlugboardBase.MapCharacterString">
+            <summary>Sets the shim of PlugboardBase.MapCharacter(String characterToMap)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimReflector">
+            <summary>Shim type of Microsoft.Enigma.Reflector</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimReflector.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimReflector.#ctor(Microsoft.Enigma.Reflector)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimReflector.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.AllInstances.InboundInt32">
+            <summary>Sets the shim of Reflector.Inbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.AllInstances.LayoutGet">
+            <summary>Sets the shim of Reflector.get_Layout()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.AllInstances.LayoutSetString">
+            <summary>Sets the shim of Reflector.set_Layout(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.AllInstances.MappingGet">
+            <summary>Sets the shim of Reflector.get_Mapping()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.AllInstances.MappingSetListOfRotorMapping">
+            <summary>Sets the shim of Reflector.set_Mapping(List`1&lt;RotorMapping&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.AllInstances.NameGet">
+            <summary>Sets the shim of Reflector.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.AllInstances.NameSetString">
+            <summary>Sets the shim of Reflector.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.AllInstances.OutboundInt32">
+            <summary>Sets the shim of Reflector.Outbound(Int32 position)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimReflector.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimReflector.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimReflector.Bind(Microsoft.Enigma.IReflector)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.ConstructorStringString">
+            <summary>Sets the shim of Reflector.Reflector(String layout, String name)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.InboundInt32">
+            <summary>Sets the shim of Reflector.Inbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.LayoutGet">
+            <summary>Sets the shim of Reflector.get_Layout()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.LayoutSetString">
+            <summary>Sets the shim of Reflector.set_Layout(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.MappingGet">
+            <summary>Sets the shim of Reflector.get_Mapping()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.MappingSetListOfRotorMapping">
+            <summary>Sets the shim of Reflector.set_Mapping(List`1&lt;RotorMapping&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.NameGet">
+            <summary>Sets the shim of Reflector.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.NameSetString">
+            <summary>Sets the shim of Reflector.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimReflector.OutboundInt32">
+            <summary>Sets the shim of Reflector.Outbound(Int32 position)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimRotor">
+            <summary>Shim type of Microsoft.Enigma.Rotor</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotor.#ctor(Microsoft.Enigma.Rotor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimRotor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.InboundInt32">
+            <summary>Sets the shim of Rotor.Inbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.InitialiseRotor">
+            <summary>Sets the shim of Rotor.InitialiseRotor()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.IsTurnoverPointInt32">
+            <summary>Sets the shim of Rotor.IsTurnoverPoint(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.LayoutGet">
+            <summary>Sets the shim of Rotor.get_Layout()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.LayoutSetString">
+            <summary>Sets the shim of Rotor.set_Layout(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.MappingGet">
+            <summary>Sets the shim of Rotor.get_Mapping()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.MappingSetListOfRotorMapping">
+            <summary>Sets the shim of Rotor.set_Mapping(List`1&lt;RotorMapping&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.NameGet">
+            <summary>Sets the shim of Rotor.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.NameSetString">
+            <summary>Sets the shim of Rotor.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.OutboundInt32">
+            <summary>Sets the shim of Rotor.Outbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.RingstellungGet">
+            <summary>Sets the shim of Rotor.get_Ringstellung()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.RingstellungSetInt32">
+            <summary>Sets the shim of Rotor.set_Ringstellung(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.SetRingstellung">
+            <summary>Sets the shim of Rotor.SetRingstellung()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.TurnoverPointsGet">
+            <summary>Sets the shim of Rotor.get_TurnoverPoints()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.AllInstances.TurnoverPointsSetListOfString">
+            <summary>Sets the shim of Rotor.set_TurnoverPoints(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotor.Bind(Microsoft.Enigma.IRotor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.ConstructorStringStringListOfStringListOfStringListOfString">
+            <summary>Sets the shim of Rotor.Rotor(String rotorLayout, String name, List`1&lt;String&gt; notches, List`1&lt;String&gt; turnoverPoints, List`1&lt;String&gt; windows)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.InboundInt32">
+            <summary>Sets the shim of Rotor.Inbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.InitialiseRotor">
+            <summary>Sets the shim of Rotor.InitialiseRotor()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.IsTurnoverPointInt32">
+            <summary>Sets the shim of Rotor.IsTurnoverPoint(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.LayoutGet">
+            <summary>Sets the shim of Rotor.get_Layout()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.LayoutSetString">
+            <summary>Sets the shim of Rotor.set_Layout(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.MappingGet">
+            <summary>Sets the shim of Rotor.get_Mapping()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.MappingSetListOfRotorMapping">
+            <summary>Sets the shim of Rotor.set_Mapping(List`1&lt;RotorMapping&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.NameGet">
+            <summary>Sets the shim of Rotor.get_Name()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.NameSetString">
+            <summary>Sets the shim of Rotor.set_Name(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.OutboundInt32">
+            <summary>Sets the shim of Rotor.Outbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.RingstellungGet">
+            <summary>Sets the shim of Rotor.get_Ringstellung()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.RingstellungSetInt32">
+            <summary>Sets the shim of Rotor.set_Ringstellung(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.SetRingstellung">
+            <summary>Sets the shim of Rotor.SetRingstellung()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.TurnoverPointsGet">
+            <summary>Sets the shim of Rotor.get_TurnoverPoints()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotor.TurnoverPointsSetListOfString">
+            <summary>Sets the shim of Rotor.set_TurnoverPoints(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimRotorMapping">
+            <summary>Shim type of Microsoft.Enigma.RotorMapping</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotorMapping.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotorMapping.#ctor(Microsoft.Enigma.RotorMapping)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.InputCharacterGet">
+            <summary>Sets the shim of RotorMapping.get_InputCharacter()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.InputCharacterSetString">
+            <summary>Sets the shim of RotorMapping.set_InputCharacter(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.InputPinGet">
+            <summary>Sets the shim of RotorMapping.get_InputPin()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.InputPinSetInt32">
+            <summary>Sets the shim of RotorMapping.set_InputPin(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.IsTurnoverPointGet">
+            <summary>Sets the shim of RotorMapping.get_IsTurnoverPoint()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.IsTurnoverPointSetBoolean">
+            <summary>Sets the shim of RotorMapping.set_IsTurnoverPoint(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.OutputCharacterGet">
+            <summary>Sets the shim of RotorMapping.get_OutputCharacter()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.OutputCharacterSetString">
+            <summary>Sets the shim of RotorMapping.set_OutputCharacter(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.OutputPinGet">
+            <summary>Sets the shim of RotorMapping.get_OutputPin()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.AllInstances.OutputPinSetInt32">
+            <summary>Sets the shim of RotorMapping.set_OutputPin(Int32 value)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotorMapping.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimRotorMapping.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.ConstructorStringInt32StringInt32Boolean">
+            <summary>Sets the shim of RotorMapping.RotorMapping(String inputCharacter, Int32 inputPin, String outputCharacter, Int32 outputPin, Boolean isTurnoverPoint)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.InputCharacterGet">
+            <summary>Sets the shim of RotorMapping.get_InputCharacter()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.InputCharacterSetString">
+            <summary>Sets the shim of RotorMapping.set_InputCharacter(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.InputPinGet">
+            <summary>Sets the shim of RotorMapping.get_InputPin()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.InputPinSetInt32">
+            <summary>Sets the shim of RotorMapping.set_InputPin(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.IsTurnoverPointGet">
+            <summary>Sets the shim of RotorMapping.get_IsTurnoverPoint()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.IsTurnoverPointSetBoolean">
+            <summary>Sets the shim of RotorMapping.set_IsTurnoverPoint(Boolean value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.OutputCharacterGet">
+            <summary>Sets the shim of RotorMapping.get_OutputCharacter()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.OutputCharacterSetString">
+            <summary>Sets the shim of RotorMapping.set_OutputCharacter(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.OutputPinGet">
+            <summary>Sets the shim of RotorMapping.get_OutputPin()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimRotorMapping.OutputPinSetInt32">
+            <summary>Sets the shim of RotorMapping.set_OutputPin(Int32 value)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimScramblerUnitBase">
+            <summary>Shim type of Microsoft.Enigma.ScramblerUnitBase</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.#ctor(Microsoft.Enigma.ScramblerUnitBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.AllInstances.IncrementRotors">
+            <summary>Sets the shim of ScramblerUnitBase.IncrementRotors()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.AllInstances.ScrambleString">
+            <summary>Sets the shim of ScramblerUnitBase.Scramble(String characterToScramble)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.Bind(Microsoft.Enigma.IScramblerUnit)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.ConstructorEnigmaSettings">
+            <summary>Sets the shim of ScramblerUnitBase.ScramblerUnitBase(EnigmaSettings settings)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.ConstructorIRotorIReflectorIRotorArrayInt32Array">
+            <summary>Sets the shim of ScramblerUnitBase.ScramblerUnitBase(IRotor entryWheel, IReflector reflector, IRotor[] rotors, Int32[] rotorPositions)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.IncrementRotors">
+            <summary>Sets the shim of ScramblerUnitBase.IncrementRotors()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.ShimScramblerUnitBase.ScrambleString">
+            <summary>Sets the shim of ScramblerUnitBase.Scramble(String characterToScramble)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubAbstractEnigmaMachine">
+            <summary>Stub type of Microsoft.Enigma.AbstractEnigmaMachine</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractEnigmaMachine.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractEnigmaMachine.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractEnigmaMachine.EncryptDecrypt(System.String)">
+            <summary>Sets the stub of AbstractEnigmaMachine.EncryptDecrypt(String message)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubAbstractEnigmaMachine.EncryptDecryptString">
+            <summary>Sets the stub of AbstractEnigmaMachine.EncryptDecrypt(String message)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractEnigmaMachine.InitializeStub">
+            <summary>Initializes a new instance of type StubAbstractEnigmaMachine</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractEnigmaMachine.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractEnigmaMachine.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubAbstractPlugboard">
+            <summary>Stub type of Microsoft.Enigma.AbstractPlugboard</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractPlugboard.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractPlugboard.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractPlugboard.InitializeStub">
+            <summary>Initializes a new instance of type StubAbstractPlugboard</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractPlugboard.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractPlugboard.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractPlugboard.MapCharacter(System.String)">
+            <summary>Sets the stub of AbstractPlugboard.MapCharacter(String characterToMap)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubAbstractPlugboard.MapCharacterString">
+            <summary>Sets the stub of AbstractPlugboard.MapCharacter(String characterToMap)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit">
+            <summary>Stub type of Microsoft.Enigma.AbstractScrabmlerUnit</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.IncrementRotors">
+            <summary>Sets the stub of AbstractScrabmlerUnit.IncrementRotors()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.IncrementRotors01">
+            <summary>Sets the stub of AbstractScrabmlerUnit.IncrementRotors()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.InitializeStub">
+            <summary>Initializes a new instance of type StubAbstractScrabmlerUnit</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.Scramble(System.String)">
+            <summary>Sets the stub of AbstractScrabmlerUnit.Scramble(String characterToScramble)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubAbstractScrabmlerUnit.ScrambleString">
+            <summary>Sets the stub of AbstractScrabmlerUnit.Scramble(String characterToScramble)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubEnigmaFactory">
+            <summary>Stub type of Microsoft.Enigma.EnigmaFactory</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubEnigmaFactory</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubEnigmaMachineBase">
+            <summary>Stub type of Microsoft.Enigma.EnigmaMachineBase</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaMachineBase.#ctor(Microsoft.Enigma.EnigmaSettings)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaMachineBase.#ctor(Microsoft.Enigma.IPlugboard,Microsoft.Enigma.IScramblerUnit)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaMachineBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaMachineBase.EncryptDecrypt(System.String)">
+            <summary>Sets the stub of EnigmaMachineBase.EncryptDecrypt(String message)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubEnigmaMachineBase.EncryptDecryptString">
+            <summary>Sets the stub of EnigmaMachineBase.EncryptDecrypt(String message)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaMachineBase.InitializeStub">
+            <summary>Initializes a new instance of type StubEnigmaMachineBase</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaMachineBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaMachineBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubEnigmaSettings">
+            <summary>Stub type of Microsoft.Enigma.EnigmaSettings</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaSettings.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaSettings.#ctor(Microsoft.Enigma.IRotor,System.Collections.Generic.List{Microsoft.Enigma.IRotor},Microsoft.Enigma.IPlugboard,System.Collections.Generic.List{System.Int32})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaSettings.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaSettings.InitializeStub">
+            <summary>Initializes a new instance of type StubEnigmaSettings</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaSettings.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaSettings.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubEnigmaStateEntry">
+            <summary>Stub type of Microsoft.Enigma.EnigmaStateEntry</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaStateEntry.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaStateEntry.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubEnigmaStateEntry.InitializeStub">
+            <summary>Initializes a new instance of type StubEnigmaStateEntry</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaStateEntry.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubEnigmaStateEntry.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubIEnigmaMachine">
+            <summary>Stub type of Microsoft.Enigma.IEnigmaMachine</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIEnigmaMachine.#ctor">
+            <summary>Initializes a new instance of type StubIEnigmaMachine</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIEnigmaMachine.EncryptDecryptString">
+            <summary>Sets the stub of IEnigmaMachine.EncryptDecrypt(String message)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIEnigmaMachine.Microsoft#Enigma#IEnigmaMachine#EncryptDecrypt(System.String)">
+            <summary>Sets the stub of IEnigmaMachine.EncryptDecrypt(String message)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubIPlugboard">
+            <summary>Stub type of Microsoft.Enigma.IPlugboard</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIPlugboard.#ctor">
+            <summary>Initializes a new instance of type StubIPlugboard</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIPlugboard.AttachBackingFieldToLayout">
+            <summary>Attaches delegates to emulate StubIPlugboard.Layout as a property with a backing field.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIPlugboard.Microsoft#Enigma#IPlugboard#Layout">
+            <summary>Sets the stub of IPlugboard.get_Layout()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIPlugboard.LayoutGet">
+            <summary>Sets the stub of IPlugboard.get_Layout()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIPlugboard.LayoutSetDictionaryOfStringString">
+            <summary>Sets the stub of IPlugboard.set_Layout(Dictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIPlugboard.MapCharacterString">
+            <summary>Sets the stub of IPlugboard.MapCharacter(String characterToMap)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIPlugboard.Microsoft#Enigma#IPlugboard#MapCharacter(System.String)">
+            <summary>Sets the stub of IPlugboard.MapCharacter(String characterToMap)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubIReflector">
+            <summary>Stub type of Microsoft.Enigma.IReflector</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIReflector.#ctor">
+            <summary>Initializes a new instance of type StubIReflector</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIReflector.InboundInt32">
+            <summary>Sets the stub of IReflector.Inbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIReflector.Microsoft#Enigma#IReflector#Layout">
+            <summary>Sets the stub of IReflector.get_Layout()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIReflector.LayoutGet">
+            <summary>Sets the stub of IReflector.get_Layout()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIReflector.Microsoft#Enigma#IReflector#Mapping">
+            <summary>Sets the stub of IReflector.get_Mapping()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIReflector.MappingGet">
+            <summary>Sets the stub of IReflector.get_Mapping()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIReflector.Microsoft#Enigma#IReflector#Inbound(System.Int32)">
+            <summary>Sets the stub of IReflector.Inbound(Int32 position)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIReflector.Microsoft#Enigma#IReflector#Outbound(System.Int32)">
+            <summary>Sets the stub of IReflector.Outbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIReflector.Microsoft#Enigma#IReflector#Name">
+            <summary>Sets the stub of IReflector.get_Name()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIReflector.NameGet">
+            <summary>Sets the stub of IReflector.get_Name()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIReflector.OutboundInt32">
+            <summary>Sets the stub of IReflector.Outbound(Int32 position)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubIRotor">
+            <summary>Stub type of Microsoft.Enigma.IRotor</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIRotor.#ctor">
+            <summary>Initializes a new instance of type StubIRotor</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIRotor.AttachBackingFieldToRingstellung">
+            <summary>Attaches delegates to emulate StubIRotor.Ringstellung as a property with a backing field.</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIRotor.InboundInt32">
+            <summary>Sets the stub of IRotor.Inbound(Int32 position)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIRotor.IsTurnoverPointInt32">
+            <summary>Sets the stub of IRotor.IsTurnoverPoint(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIRotor.Microsoft#Enigma#IRotor#Layout">
+            <summary>Sets the stub of IRotor.get_Layout()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIRotor.LayoutGet">
+            <summary>Sets the stub of IRotor.get_Layout()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIRotor.Microsoft#Enigma#IRotor#Mapping">
+            <summary>Sets the stub of IRotor.get_Mapping()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIRotor.MappingGet">
+            <summary>Sets the stub of IRotor.get_Mapping()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIRotor.Microsoft#Enigma#IRotor#Inbound(System.Int32)">
+            <summary>Sets the stub of IRotor.Inbound(Int32 position)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIRotor.Microsoft#Enigma#IRotor#IsTurnoverPoint(System.Int32)">
+            <summary>Sets the stub of IRotor.IsTurnoverPoint(Int32 position)</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIRotor.Microsoft#Enigma#IRotor#Outbound(System.Int32)">
+            <summary>Sets the stub of IRotor.Outbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIRotor.Microsoft#Enigma#IRotor#Name">
+            <summary>Sets the stub of IRotor.get_Name()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIRotor.NameGet">
+            <summary>Sets the stub of IRotor.get_Name()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIRotor.OutboundInt32">
+            <summary>Sets the stub of IRotor.Outbound(Int32 position)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIRotor.Microsoft#Enigma#IRotor#Ringstellung">
+            <summary>Sets the stub of IRotor.get_Ringstellung()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIRotor.RingstellungGet">
+            <summary>Sets the stub of IRotor.get_Ringstellung()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIRotor.RingstellungSetInt32">
+            <summary>Sets the stub of IRotor.set_Ringstellung(Int32 value)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubIScramblerUnit">
+            <summary>Stub type of Microsoft.Enigma.IScramblerUnit</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIScramblerUnit.#ctor">
+            <summary>Initializes a new instance of type StubIScramblerUnit</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIScramblerUnit.Microsoft#Enigma#IScramblerUnit#EntryWheel">
+            <summary>Sets the stub of IScramblerUnit.get_EntryWheel()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIScramblerUnit.EntryWheelGet">
+            <summary>Sets the stub of IScramblerUnit.get_EntryWheel()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubIScramblerUnit.Microsoft#Enigma#IScramblerUnit#Scramble(System.String)">
+            <summary>Sets the stub of IScramblerUnit.Scramble(String characterToScramble)</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIScramblerUnit.Microsoft#Enigma#IScramblerUnit#Reflector">
+            <summary>Sets the stub of IScramblerUnit.get_Reflector()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIScramblerUnit.ReflectorGet">
+            <summary>Sets the stub of IScramblerUnit.get_Reflector()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIScramblerUnit.Microsoft#Enigma#IScramblerUnit#RotorPositions">
+            <summary>Sets the stub of IScramblerUnit.get_RotorPositions()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIScramblerUnit.RotorPositionsGet">
+            <summary>Sets the stub of IScramblerUnit.get_RotorPositions()</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubIScramblerUnit.Microsoft#Enigma#IScramblerUnit#Rotors">
+            <summary>Sets the stub of IScramblerUnit.get_Rotors()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIScramblerUnit.RotorsGet">
+            <summary>Sets the stub of IScramblerUnit.get_Rotors()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubIScramblerUnit.ScrambleString">
+            <summary>Sets the stub of IScramblerUnit.Scramble(String characterToScramble)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubPlugboardBase">
+            <summary>Stub type of Microsoft.Enigma.PlugboardBase</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubPlugboardBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubPlugboardBase.#ctor(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubPlugboardBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubPlugboardBase.InitializeStub">
+            <summary>Initializes a new instance of type StubPlugboardBase</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubPlugboardBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubPlugboardBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubPlugboardBase.MapCharacter(System.String)">
+            <summary>Sets the stub of PlugboardBase.MapCharacter(String characterToMap)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubPlugboardBase.MapCharacterString">
+            <summary>Sets the stub of PlugboardBase.MapCharacter(String characterToMap)</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubReflector">
+            <summary>Stub type of Microsoft.Enigma.Reflector</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubReflector.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubReflector.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubReflector.InitializeStub">
+            <summary>Initializes a new instance of type StubReflector</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubReflector.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubReflector.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubRotor">
+            <summary>Stub type of Microsoft.Enigma.Rotor</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubRotor.#ctor(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubRotor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubRotor.InitializeStub">
+            <summary>Initializes a new instance of type StubRotor</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubRotor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubRotor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubRotorMapping">
+            <summary>Stub type of Microsoft.Enigma.RotorMapping</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubRotorMapping.#ctor(System.String,System.Int32,System.String,System.Int32,System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubRotorMapping.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubRotorMapping.InitializeStub">
+            <summary>Initializes a new instance of type StubRotorMapping</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubRotorMapping.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubRotorMapping.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Enigma.Fakes.StubScramblerUnitBase">
+            <summary>Stub type of Microsoft.Enigma.ScramblerUnitBase</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubScramblerUnitBase.#ctor(Microsoft.Enigma.EnigmaSettings)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubScramblerUnitBase.#ctor(Microsoft.Enigma.IRotor,Microsoft.Enigma.IReflector,Microsoft.Enigma.IRotor[],System.Int32[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubScramblerUnitBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubScramblerUnitBase.IncrementRotors">
+            <summary>Sets the stub of ScramblerUnitBase.IncrementRotors()</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubScramblerUnitBase.IncrementRotors01">
+            <summary>Sets the stub of ScramblerUnitBase.IncrementRotors()</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubScramblerUnitBase.InitializeStub">
+            <summary>Initializes a new instance of type StubScramblerUnitBase</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubScramblerUnitBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Enigma.Fakes.StubScramblerUnitBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:Microsoft.Enigma.Fakes.StubScramblerUnitBase.Scramble(System.String)">
+            <summary>Sets the stub of ScramblerUnitBase.Scramble(String characterToScramble)</summary>
+        </member>
+        <member name="F:Microsoft.Enigma.Fakes.StubScramblerUnitBase.ScrambleString">
+            <summary>Sets the stub of ScramblerUnitBase.Scramble(String characterToScramble)</summary>
+        </member>
+    </members>
+</doc>

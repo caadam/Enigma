@@ -1,0 +1,16 @@
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate stub for Microsoft.Enigma.Constants: type is sealed.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate stub for Microsoft.Enigma.Extensions: type is sealed.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.IEnigmaMachine: type is an interface.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.IPlugboard: type is an interface.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.IReflector: type is an interface.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.IRotor: type is an interface.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.IScramblerUnit: type is an interface.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.PlugboardBase+<>c__DisplayClass3_0: type is not supported because of internal limitations.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.Reflector+<>c__DisplayClass15_0: type is not supported because of internal limitations.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.Reflector+<>c__DisplayClass16_0: type is not supported because of internal limitations.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.Rotor+<>c__DisplayClass25_0: type is not supported because of internal limitations.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.Rotor+<>c__DisplayClass26_0: type is not supported because of internal limitations.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.Rotor+<>c__DisplayClass27_0: type is not supported because of internal limitations.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.ScramblerUnitBase+<>c__DisplayClass2_0: type is not supported because of internal limitations.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.ScramblerUnitBase+<>c__DisplayClass2_1: type is not supported because of internal limitations.
+C:\Projects\Enigma\Microsoft.Enigma\Microsoft.Enigma.Tests\Fakes\Microsoft.Enigma.fakes : warning : Cannot generate shim for Microsoft.Enigma.ScramblerUnitBase+<>c__DisplayClass2_2: type is not supported because of internal limitations.

@@ -1,0 +1,16 @@
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate stub for Enigma.Constants: type is sealed.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate stub for Enigma.Extensions: type is sealed.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.IEnigmaMachine: type is an interface.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.IPlugboard: type is an interface.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.IReflector: type is an interface.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.IRotor: type is an interface.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.IScramblerUnit: type is an interface.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.PlugboardBase+<>c__DisplayClass3_0: type is not supported because of internal limitations.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.Reflector+<>c__DisplayClass15_0: type is not supported because of internal limitations.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.Reflector+<>c__DisplayClass16_0: type is not supported because of internal limitations.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.Rotor+<>c__DisplayClass25_0: type is not supported because of internal limitations.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.Rotor+<>c__DisplayClass26_0: type is not supported because of internal limitations.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.Rotor+<>c__DisplayClass27_0: type is not supported because of internal limitations.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.ScramblerUnitBase+<>c__DisplayClass2_0: type is not supported because of internal limitations.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.ScramblerUnitBase+<>c__DisplayClass2_1: type is not supported because of internal limitations.
+C:\Projects\Git\Enigma\Enigma.Tests\Fakes\Enigma.fakes : warning : Cannot generate shim for Enigma.ScramblerUnitBase+<>c__DisplayClass2_2: type is not supported because of internal limitations.
