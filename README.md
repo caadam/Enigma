@@ -1,5 +1,7 @@
 # Enigma
 
+![alt text](https://github.com/caadam/enigma/images/enigma_logo.jpg "Enigma Logo")
+
 Contents
 
 | 1Introduction |
@@ -43,9 +45,9 @@ Contents
 
 The Enigma machines were a series of electro-mechanical rotor cipher machines developed and used in the early- to mid-twentieth century to protect commercial, diplomatic and military communication. Enigma was invented by the German engineer Arthur Scherbius at the end of World War I. Early models were used commercially from the early 1920s, and adopted by military and government services of several countries, most notably Nazi Germany before and during World War II. Several different Enigma models were produced, but the German military models are the most commonly recognised.
 
+
+![alt text](https://github.com/caadam/enigma/images/m3_engima_machine.jpg "M3 Enigma Machine")
 Credit : [https://en.wikipedia.org/wiki/Enigma\_machine](https://en.wikipedia.org/wiki/Enigma_machine)
-
-
 
 Figure 1: M3 Enigma Machine. credit : www.cryptomuseum.com
 
@@ -163,7 +165,7 @@ The following details the setup and mechanical operation of an Enigma machine. L
 
 The following image shows the basic components of an enigma machine. They will be individually described in detail in subsequent sections.
 
-
+![alt text](https://github.com/caadam/enigma/images/engima_components.jpg "Enigma components")
 Figure 2: Enigma Machine. credit : www.cryptomuseum.com
 
 1.
@@ -172,14 +174,14 @@ Figure 2: Enigma Machine. credit : www.cryptomuseum.com
 
 An enigma machine was operated by a single individual and an optional radio operator to help. The individual would first setup the machine using a known configuration that was changed daily and kept in codebook.
 
-
+![alt text](https://github.com/caadam/enigma/images/codebook.jpg "Codebook page from October 1944")
 Figure 3: Codebook page from October 1944
 
 Once a machine was setup, the operator typed the message into the machine and recorded the result on the lampboard. Because the enigma machine uses a symmetrical algorithm, the same initial setup was used for encoding and decoding.
 
 For each character that is pressed, the machine first increments one or more rotors. Once a new circuit is complete, the encoded/decoded character is illuminated on the lampboard. The following diagram demonstrates the complete circuit from Keyboard through plugboard, rotors, reflectors then back before illuminating a lamp on the lampboard.
 
-
+![alt text](https://github.com/caadam/enigma/images/physical_diagram.png "Physical connections in the Enigma machine")
 Figure 4 : Physical connections in the Enigma machine
 
 1.
@@ -188,7 +190,7 @@ Figure 4 : Physical connections in the Enigma machine
 
 The keyboard on the enigma machine was a 26 character QWERTY layout. A key press would first increment the rotors, then complete the circuit and illuminate the encoded character on the lampboard.
 
-
+![alt text](https://github.com/caadam/enigma/images/keyboard.png "Enigma Keyboard")
 Figure 5 : Enigma Keyboard
 
 1.
@@ -197,7 +199,7 @@ Figure 5 : Enigma Keyboard
 
 The plugboard was a component that remapped up to 10 characters and was the second element during encoding/decoding. The characters where mapped by physically connecting plugs and wires from the inbound character to the outbound. A character and be used for a mapped pair only once. The plugboard was added to military Engima machines to provide and extra level of security to messages.
 
-
+![alt text](https://github.com/caadam/enigma/images/plugboard.png "Enigma Plugboard")
 Figure 6 : Enigma Plugboard
 
 1.
@@ -206,7 +208,7 @@ Figure 6 : Enigma Plugboard
 
 The scrambler unit was the major component of the enigma machine. It was made up of an entry wheel, 3 or 4 rotors and a reflector. The rotors and reflectors are able to be changed by the user. The use is also able to set the starting position of each rotor after installation. The choice of rotors, reflector and rotor position was defined by the codebook.
 
-
+![alt text](https://github.com/caadam/enigma/images/scrambler.jpg "Scrambler unit showing rotors and reflectors")
 Figure 7 : Scrambler unit showing rotors and reflectors
 
 Once a key was pressed on the keyboard, the scrambler incremented one or more of the rotor position to form a new connection path way. The path on a 3 rotor machine was as follows:
@@ -237,7 +239,7 @@ The rotors, also referred to as wheels, are the core component of the Enigma mac
 
 The following shows the internal workings of a rotor.
 
-
+![alt text](https://github.com/caadam/enigma/images/rotor.png "Exploded view of a Rotor")
 Figure 8 : Exploded view of a Rotor
 
 1.
@@ -293,7 +295,7 @@ Each rotor need to be installed into the correct position in the scrambler. The 
 
 Once the rotors had their ring positions set and installed in the correct position, they can be manually incremented to their starting position. A start position of &#39; **ABL**&#39; meant that the left most rotor was left in position A, the middle rotor was rotated to position B was visible and the right most rotor was rotated until L was visible.
 
-
+![alt text](https://github.com/caadam/enigma/images/rotor_start_position.png "Windows showing the starting positon of rotors on a M4 Enigma machine")
 Figure 9 : Windows showing the starting positon of rotors on a M4 Enigma machine
 
 1.
@@ -367,7 +369,7 @@ Table 3 : Reflector Mappings
 
 The final part of the circuit is a bulb located on the lampboard. The lampboard was laid out in the same, 26 character QWERTY layout as the keyboard.
 
-
+![alt text](https://github.com/caadam/enigma/images/lampboard.png "Enigma machine lampboard")
 Figure 10 : Enigma machine lampboard
 
 1.
